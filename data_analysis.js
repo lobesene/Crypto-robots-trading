@@ -1,5 +1,5 @@
 //--------------------------------------MongoDocument--------------------------------------
-/*const MongoClient = require('mongodb').MongoClient;
+const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
 // Connection URL
@@ -23,7 +23,7 @@ client.connect(function(err) {
     client.close();
   });
 });
-*/
+
 //-------------------------------------Classes&Méthodes------------------------------------
 
 class History{
@@ -77,7 +77,6 @@ if (kraken.status === 200 )
 }
 //----------------------------------Insertion du document dans la DB-------------------------//
 //Cette fonction est appellée lors de la connection au serveur local 
-/*
 //Insertion de documents
 const insertDocuments = function(db, callback) {
   // Get the documents collection
@@ -90,7 +89,6 @@ const insertDocuments = function(db, callback) {
     callback(result);
   });
 }
-*/
 
 //--------------------------------Récupérer les prix à la fermeture-------------------------//
 
