@@ -1,4 +1,4 @@
-# Crypto-robots-Trading
+# Crypto-trading-robot
 Blockchain programming
 
 This is a Project/Practical Work, destined to create a cryptocurrency trading robot(s).
